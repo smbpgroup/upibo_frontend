@@ -1,0 +1,8 @@
+syntax: glob
+dist/*
+node_modules/*
+.DS_Store
+/config/config.json
+yarn-error.log
+yarn.lock
+package-lock.json
