@@ -72,8 +72,10 @@ module.exports = {
           ],
         }),
       },
-      { test: /\.(eot|svg|ttf|woff|woff2)$/, loader: 'url-loader?limit=100000' },
-      { test: /\.(jpe?g|png|gif|svg)$/i, use: ['url-loader?limit=10000','img-loader']}
+      // { test: /\.(eot|svg|ttf|woff|woff2)$/, loader: 'url-loader?limit=100000' },
+      // { test: /\.(jpe?g|png|gif|svg)$/i, use: ['url-loader?limit=10000','img-loader']}
+      { test: /\.(eot|svg|ttf|woff|woff2)$/, loader: 'file-loader?name=/fonts/[name].[ext]' },
+      { test: /\.(jpe?g|png|gif)$/i, loader: 'file-loader?name=/images/[name].[ext]'}
     ]
   },
   plugins: [

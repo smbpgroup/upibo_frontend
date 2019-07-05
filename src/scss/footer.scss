@@ -1,41 +1,37 @@
 .footer{
-    .footer-top{
-        height: 63px;
+    a{
+        color: #676764;
+        text-decoration: none;
         font-weight: 700;
-        background-color: #f6f5f1;
+    }
+    .footer-top{
+        min-height: 45px;
+        border-top: 2px dashed #eeebdc;
+        border-bottom: 2px dashed #eeebdc;
         align-items: center;
-        display: flex;
-        box-shadow: 0 0 5px #978964;
-        ul{
-            display: flex;
-            margin-bottom: 0px;
-            li:first-child{
-                border-left: 0px; 
-            }
-            li{
-                list-style: none;
-                border-left: 1px solid #978964;
-                padding-left: 10px;
-                padding-right: 10px;
-                a{
-                    color: #978964;
-                    text-decoration: none;
-                }
-            }
+        margin-left: 0px;
+        margin-right: 0px;
+        img{
+            height: 40px;
+        }
+        div:first-child{
+            border-left: 0px; 
+        }
+        div{
+            text-align: center;
+            border-left: 1px solid #676764;
         }
     }
     .footer-bottom{
-        background-color: #f6f5f1;
-        box-shadow: 0 0 5px #978964;
-        font-weight: 700;
         min-height: 63px;
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: space-between;
         .bottom-left{
             padding-left: 20px;
         }
-        div{
-            align-items: center;
-            display: flex;
-        }
+
         .bottom-right{
             .row{
                 width: 100%;
@@ -44,28 +40,10 @@
                 border-left: 0px; 
             }
             div{
-                border-left: 1px solid #978964;
-            }
-            a{
-                color: #978964;
-                text-decoration: none;
+                text-align: center;
+                border-left: 1px solid #676764;
             }
         }
-        
-        // ul{
-        //     display: flex;
-        //     margin-bottom: 0px;
-        //     li:first-child{
-        //         border-left: 0px; 
-        //     }
-            // li{
-            //     list-style: none;
-            //     border-left: 1px solid #978964;
-            //     padding-left: 10px;
-            //     padding-right: 10px;
-                
-            // }
-        // }
     }
     
 }

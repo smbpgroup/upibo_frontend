@@ -11,7 +11,6 @@ const App = (props) =>{
             <div className="main-content">
                 {renderRoutes(route.routes)} 
             </div>
-            
             <Footer />
         </div>
     )
